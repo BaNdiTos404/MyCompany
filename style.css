@@ -1,0 +1,258 @@
+*{
+padding: 0;
+margin: 0;
+}
+a{
+text-decoration: none;    
+}
+li{
+list-style: none;
+}
+body{
+font-family: 'Open Sans', sans-serif;
+}
+
+/* Header */
+
+header{
+    width: 100%;
+    display: flex;
+    background-color: #000;
+}
+.header__logo{
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 24px;
+    margin-left: 12%;
+    margin-top: 56px;
+}
+nav{
+    margin-left: 29%;
+    margin-top: 56px;
+}
+.topnav a{
+    color: #fff;
+    text-align: center;
+    padding: 12px 16px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.topnav a:hover{
+    border-bottom: 4px solid #fcac45;
+    padding-bottom: 8px; 
+    
+}
+.topnav .icon{
+    display: none;
+}
+/*Main Welcome*/
+
+main{
+display: flex;
+flex-direction: column;
+width: 100%;    
+    
+}
+
+main .main__welcome{
+background: #000;    
+text-align: center;
+padding: 200px 0 410px 0;
+    
+}
+
+main .main__welcome p{
+    color: #999999;
+    font-size: 20px;
+}
+main .main__welcome h1{
+ font-size: 44px;
+ color: #999999;    
+}
+
+main .mycompany{
+    color: #fcac45;
+    
+}
+main .welcome{
+ font-weight: 100;    
+}
+
+.EoE{
+ font-weight: bold;
+ color: #d4d4d4;    
+}
+.ExtP{
+ font-weight: bold;
+ color: #d4d4d4; 
+}
+
+/*Block 2 - ABOUT */
+.wrapper{
+    width: 76%;
+    margin: 0 auto;
+}
+main .about{
+ display: flex;
+ padding: 100px 0 100px 0;    
+}
+.about__right{
+margin-left: 175px;
+
+}
+.about__right h1{
+    display: inline-block;
+    border-bottom: 3px solid #fcac45;
+    padding-bottom: 21px;
+    
+    font-size: 34px;
+    font-weight: 400;
+}
+.about_us{
+    font-weight: bold;
+    color: #000;
+}
+
+.about__right p{
+    color: #6c6c6c;
+    margin: 31px 0 50px ;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.about__right ul{
+ color: #999999;   
+}
+.about__right li{ 
+background: url(img/mark.png) 0px no-repeat;
+padding-left: 25px;
+} 
+.MSC{
+    font-weight: 600;
+    font-size: 18px;
+    color: #5a5a5a;
+}
+
+.mw-100{
+    min-width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 1200px){
+    nav{
+        margin-left: 20%;
+    }   
+}
+@media screen and (max-width: 1105px){
+    nav{
+        margin-left: 15%;
+    }
+}
+@media screen and (max-width: 1295px){
+    nav{
+        margin-left: 10%;
+    }    
+    
+}
+
+@media screen and (max-width: 1010px) {
+    .topnav a{
+        display: none;
+    }
+    .topnav a.icon{
+        float: right;
+        margin-top: -17px;
+        display: block;
+        color: #fff;
+        font-size: 25px;
+    }
+    nav{
+        width: 100%;
+    }
+    .topnav.responsive{
+        position: relative;
+        top: 50px;
+        left: -200px;
+    }
+    header .topnav.responsive{
+        height: 340px;
+    }
+    .topnav.responsive a.icon{
+        position: absolute;
+        top: -50px;
+        right: 200px;
+    }
+    .topnav.responsive a{
+        float: none;
+        display: block;
+        text-align: left;
+    }
+    
+    
+    
+    
+    
+    
+    
+    main .main__welcome{
+        padding: 50px 0 50px 0;
+    }
+    main .main__welcome p{
+        font-size: 14px;
+    }
+    main .main__welcome h1{
+        font-size: 25px;
+        
+    }
+    .mw-100{
+    max-width: 100%;
+    }
+    .about{
+        flex-direction: column;
+    }
+    .about__right{
+        margin-left: 0;
+        text-align: center;
+        
+    }
+    .about__right li{
+        text-align: left;
+    }
+    .about__right h1{
+        font-size: 20px;
+        margin-top: 10px;
+    }
+}
+
+
+@media screen and (max-width: 1432px){
+    .about__right{
+        margin-left: 80px;
+    }    
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
